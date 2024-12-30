@@ -37,6 +37,7 @@
 .description {
     font-size: 16px;
     line-height: 150%;
+    max-width: 481px;
 }
 
 .bg-Bluish-purple {
@@ -147,7 +148,6 @@
 
     .description {
         font-size: 14px;
-        margin-top: 4px !important;
     }
 
     .grid-content-1 {

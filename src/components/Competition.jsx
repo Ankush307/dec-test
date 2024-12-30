@@ -4,7 +4,7 @@ import { COMPETITION_LIST } from '../utils/helper';
 const Competition = () => {
     return (
         <div className="bg-Bluish-purple align-content-center h-screen py-5">
-            <div className="container">
+            <div className="custom-container">
                 <div className="row justify-content-center">
                     <div className="col-xl-6">
                         <h1 className="text-product text-white fw-semibold Product-heading">Competition</h1>

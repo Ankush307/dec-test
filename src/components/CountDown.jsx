@@ -13,7 +13,7 @@ const CountDown = () => {
 
     return (
         <div>
-            <h1 className='text-center '>CounDown</h1>
+            <h1 className='text-center '>Use Effect</h1>
             <h2 className='text-center'>Count: {countdown}</h2>
         </div>
     );
