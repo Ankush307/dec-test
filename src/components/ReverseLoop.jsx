@@ -13,9 +13,9 @@ const ReverseLoop = () => {
     }, []);
 
     return (
-        <div>
-            <h1 className='text-center py-2 fw-semibold'>Reverce Loop</h1>
-            <h2 className='text-center pb-4'>Count: {count}</h2>
+        <div className='py-4'>
+            <h2 className='text-center pb-2 fw-bold'>Reverse Loop</h2>
+            <h2 className='text-center mb-0'>Count: {count}</h2>
         </div>
     );
 };

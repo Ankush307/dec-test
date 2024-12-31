@@ -12,7 +12,7 @@ const Cards = () => {
 
     return (
         <div className='d-flex align-items-center gap-4 justify-content-center h-screen flex-column pb-5 pt-lg-0 pt-3 px-4'>
-            <h1 className='fw-semibold pb-sm-5 '>Use Params</h1>
+            <h2 className='fw-bold pb-sm-5 '>Use Params</h2>
             <div className="d-flex gap-3 flex-lg-row flex-column">
                 {CARDS_DATA_LIST.map((obj, i) => (
                     <div key={i} onClick={() => clickHandler(obj.heading)} className='card p-xl-4 p-3 cursor-pointer'>

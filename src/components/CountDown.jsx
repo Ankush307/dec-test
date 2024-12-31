@@ -12,8 +12,8 @@ const CountDown = () => {
     }, [countdown]);
 
     return (
-        <div>
-            <h1 className='text-center fw-semibold'>Use Effect</h1>
+        <div className='pt-4'>
+            <h2 className='text-center fw-bold'>Use Effect</h2>
             <h2 className='text-center'>Count: {countdown}</h2>
         </div>
     );

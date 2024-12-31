@@ -2,11 +2,11 @@ import React from 'react'
 
 const Product = () => {
     return (
-        <div className="h-screen py-5 bg-Bluish-purple d-flex justify-content-center align-items-center">
+        <div className="h-screen py-5 bg-bluish-purple d-flex justify-content-center align-items-center">
             <div className="custom-container">
                 <div className="d-flex flex-column flex-xl-row gap-3">
                     <div className="product-description">
-                        <h1 className="text-white Product-heading">Product</h1>
+                        <h2 className="text-white fw-semibold product-heading">Product</h2>
                         <p className="m-0 text-white description"> Due to the confusing nature of tax, the lack of awareness of the tax deduction system and the complicated tax refund process, we have experienced exceptional demand from the public for our service. From release in 2015, our original tax product has achieved 60x growth, bringing in over £5m revenue in 2022.</p>
                         <p className="mt-2 m-0 text-white description"> With over 8 years of industry experience, we have listened to our clients to evolve our app into a whole-of-market product that will also meet the needs of the tax return market as well as the tax refund market. The App is packed with all the features users need to meet the requirements of the upcoming switch to Making Tax Digital.</p>
                         <p className="mt-2 m-0 text-white description">Once we establish the ourself in the UK, we plan to expand intoother territories to take advantage of the £500 billion globalmarket</p>
