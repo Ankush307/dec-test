@@ -22,7 +22,7 @@
     font-style: normal;
 }
 
-.product-parent {
+.product-description {
     background-color: #362B4F;
     padding: 16px 26px;
     border-radius: 16px;
@@ -73,11 +73,11 @@
     max-width: 622px;
 }
 
-.card-image-small {
+.card-small-img {
     max-width: 100px;
 }
 
-.card-image-large {
+.card-large-img {
     max-width: 203px;
 }
 
@@ -118,7 +118,7 @@
 }
 
 @media (max-width: 1200.98px) {
-    .product-parent {
+    .product-description {
         max-width: unset;
     }
 
@@ -204,35 +204,24 @@
     width: 95px !important;
 }
 
-.second-heading {
-    font-size: 46px;
-    font-weight: 600;
-    line-height: 59.8px;
-    padding-bottom: 50px;
-}
-
-.custom-max-w {
-    max-width: 481px !important;
-}
-
 .border-radius-xl {
     border-radius: 12px;
 }
 
-.table-bg {
+.bg-deep-sea-blue {
     background-color: #026070;
 }
 
-.Competition-table {
+.mobile-table {
     background: #026070 !important;
     border-radius: 12px !important;
 }
 
-.bg-lightGreen {
+.bg-aqua-marine {
     background-color: #56E3CB !important;
 }
 
-.Competition-table {
+.mobile-table {
     border-spacing: 8px 0;
     border-collapse: separate;
     width: 100%;
@@ -273,11 +262,6 @@ table td:first-child {
 .border-bottom-radius {
     border-bottom-left-radius: 6px !important;
     border-bottom-right-radius: 6px !important;
-}
-
-.custom-px {
-    padding-left: 31px;
-    padding-right: 31px;
 }
 
 .fees-year {
