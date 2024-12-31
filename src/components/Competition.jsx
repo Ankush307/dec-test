@@ -28,7 +28,7 @@ const Competition = () => {
                                 <tbody>
                                     {COMPETITION_LIST.map((obj, i) => (
                                         <tr key={i}>
-                                            <td className={`text-white fw-normal table-data-1 bg-transparent ps-0 custom-border-b-none`}>{obj.feature}</td>
+                                            <td className={`text-white fw-normal table-data-1 bg-transparent custom-border-b-none`}>{obj.feature}</td>
                                             <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-data custom-border-b-none`}>{obj.rift}</td>
                                             <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-data custom-border-b-none`}>{obj.taxscout}</td>
                                             <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-data custom-border-b-none`}>{obj.coconut}</td>

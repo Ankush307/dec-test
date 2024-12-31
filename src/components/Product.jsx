@@ -13,7 +13,7 @@ const Product = () => {
                         <p className="mt-2 m-0 text-white description">We have highlighted some of our key features that will be thecornerstone of our product launch in April 23.</p>
                     </div>
                     <div className="d-flex grid-container justify-content-center align-items-center w-100 h-100">
-                        <div className="d-grid grid-box h-100 max-sm-center ">
+                        <div className="d-grid grid-box h-100">
                             <div className="grid-content-1 d-flex">
                                 <img className="card-image-small" src='/assets/images/png/card-img1.png' alt="products-img" />
                                 <img className="card-image-large" src='/assets/images/png/card-img2.png' alt="products-img" />
