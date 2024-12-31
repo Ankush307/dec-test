@@ -11,15 +11,18 @@ const Cards = () => {
     };
 
     return (
-        <div className='d-flex align-items-center gap-4 justify-content-center h-screen  flex-column flex-xl-row gap-3 pb-5 pt-lg-0 pt-3 px-4'>
-            {CARDS_DATA_LIST.map((obj, i) => (
-                <div key={i} onClick={() => clickHandler(obj.heading)} className='card p-lg-4 p-3'>
-                    <img src={obj.img} alt="img" className='param-cards-img w-100' />
-                    <h2 className='text-center pt-lg-4 pt-3 m-0'>
-                        {obj.heading}
-                    </h2>
-                </div>
-            ))}
+        <div className='d-flex align-items-center gap-4 justify-content-center h-screen flex-column pb-5 pt-lg-0 pt-3 px-4'>
+            <h1 className='fw-semibold pb-sm-5 '>Use Params</h1>
+            <div className="d-flex gap-3 flex-lg-row flex-column">
+                {CARDS_DATA_LIST.map((obj, i) => (
+                    <div key={i} onClick={() => clickHandler(obj.heading)} className='card p-xl-4 p-3 cursor-pointer'>
+                        <img src={obj.img} alt="img" className='param-cards-img w-100' />
+                        <h2 className='text-center pt-lg-4 pt-3 m-0'>
+                            {obj.heading}
+                        </h2>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

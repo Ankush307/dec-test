@@ -63,6 +63,9 @@
     max-width: 674px;
     min-height: 666px;
 }
+.cursor-pointer{
+    cursor: pointer;
+}
 
 .grid-box {
     grid-template-columns: auto auto auto;
@@ -251,10 +254,6 @@
 
 .table-data:last-child {
     background-color: #e8f5e9;
-}
-
-.table-heading {
-    padding: 12px 15px;
 }
 
 table th:first-child,

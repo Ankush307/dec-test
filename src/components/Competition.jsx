@@ -19,9 +19,9 @@ const Competition = () => {
                                 <thead>
                                     <tr>
                                         <th></th>
-                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading '>Rift</th>
-                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading '>Taxscout</th>
-                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading '>Coconut</th>
+                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading'>Rift</th>
+                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading'>Taxscout</th>
+                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading'>Coconut</th>
                                         <th className='border-top-radius  text-center bg-lightGreen fw-semibold table-heading'>Pie</th>
                                     </tr>
                                 </thead>

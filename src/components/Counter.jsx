@@ -11,7 +11,7 @@ const Counter = () => {
 
     return (
         <div className='bg-black py-4'>
-            <h1 className='text-center text-white'>Use State</h1>
+            <h1 className='text-center text-white fw-semibold'>Use State</h1>
             <h2 className='text-center text-white'>Count: {count}</h2>
             <div className="d-flex align-items-center justify-content-center">
                 <button className='py-3 px-5 rounded-3  bg-white fw-bold' onClick={incrementHandler}>Add</button>
