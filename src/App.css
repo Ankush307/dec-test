@@ -201,7 +201,6 @@
 .table-heading {
     font-size: 12px;
     line-height: 15.6px;
-    color: #000000;
     padding: 27px 19px !important;
     width: 95px !important;
 }
@@ -259,7 +258,6 @@
 .fees-year {
     font-size: 8px;
     line-height: 120%;
-    color: #000000;
     padding-left: 12px;
     padding-right: 12px;
 }

@@ -19,20 +19,20 @@ const Competition = () => {
                                 <thead>
                                     <tr>
                                         <th></th>
-                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading'>Rift</th>
-                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading'>Taxscout</th>
-                                        <th className='border-top-radius text-center bg-white fw-semibold table-heading'>Coconut</th>
-                                        <th className='border-top-radius  text-center bg-aqua-marine fw-semibold table-heading'>Pie</th>
+                                        <th className='border-top-radius text-center bg-white fw-semibold text-black table-heading'>Rift</th>
+                                        <th className='border-top-radius text-center bg-white fw-semibold text-black table-heading'>Taxscout</th>
+                                        <th className='border-top-radius text-center bg-white fw-semibold text-black table-heading'>Coconut</th>
+                                        <th className='border-top-radius  text-center bg-aqua-marine fw-semibold text-black table-heading'>Pie</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {COMPETITION_LIST.map((obj, i) => (
                                         <tr key={i}>
                                             <td className={`text-white fw-normal table-data-1 bg-transparent custom-border-b-none`}>{obj.feature}</td>
-                                            <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-data bg- custom-border-b-none`}>{obj.rift}</td>
-                                            <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-data bg- custom-border-b-none`}>{obj.taxscout}</td>
-                                            <td className={`text-center ${i === 5 ? 'fees-year border-bottom-radius' : ''} bg-white table-data bg- custom-border-b-none`}>{obj.coconut}</td>
-                                            <td className={`text-center bg-aqua-marine table-data custom-border-b-none ${i === 5 ? 'fees-year border-bottom-radius' : ''}`}>{obj.pie}</td>
+                                            <td className={`text-center ${i === 5 ? 'fees-year text-black border-bottom-radius' : ''} bg-white table-data bg- custom-border-b-none`}>{obj.rift}</td>
+                                            <td className={`text-center ${i === 5 ? 'fees-year text-black border-bottom-radius' : ''} bg-white table-data bg- custom-border-b-none`}>{obj.taxscout}</td>
+                                            <td className={`text-center ${i === 5 ? 'fees-year text-black border-bottom-radius' : ''} bg-white table-data bg- custom-border-b-none`}>{obj.coconut}</td>
+                                            <td className={`text-center bg-aqua-marine table-data custom-border-b-none ${i === 5 ? 'fees-year text-black border-bottom-radius' : ''}`}>{obj.pie}</td>
                                         </tr>
                                     ))}
                                 </tbody>
